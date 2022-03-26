@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Delivery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header contenedor">
+        <div class="header__logo">
+            <img src="./build/img/logo.svg" alt="logo de Delivery app">
+        </div>
+
+        <nav class="navegacion">
+            <a href="#" class="navegacion__link">iniciar secion</a>
+            <a href="#" class="navegacion__link">crear cuenta</a>
+            <a href="#" class="navegacion__link navegacion__link--registrar">registra restaurante</a>
+        </nav>
+    </header>
+
+    <!-- esta seccion es del formulario  -->
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Encuentra y pide lo que quieras de tu restaurante favorito</h2>
+                <form class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label for="Restaurant" class="formulario__lebel">Restaurant</label>
+                        <input id="Restaurant" class="formulario__input" placeholder="picapollo DO">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="platillos" class="formulario__lebel">platillos</label>
+                        <input id="platillos" class="formulario__input" placeholder="pizza, enzalada, hamburguesa">
+                    </div>
+
+                    <input type="submit" class="formulario__submit" value="buscar">
+
+                </form>
+            </div>
+            <div class="formulario__img-contenedor">
+                <img class="formulario__img" src="build/img/dibujo_repartidor.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- esta segunda seccion es sobobre las tarjetas de pasos -->
+
+    <section class="pasos">
+        <img class="pasos__wave" src="build/img/wave.svg" alt="imagen wave">
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading">como funciona? <span class="pasos__heading-span">tan facil como, 1,2 y 3</span></h2>
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img class="pasos__img" src="build/img/paso_1.png" alt="img de pasos app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__img" src="build/img/paso_2.png" alt="img de pasos app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__img" src="build/img/paso_3.png" alt="img de pasos app">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- esta es la tercera seccion y trabajamos los testimoniales con grid -->
+
+    <section class="testimoniales">
+        <h2 class="tesimoniales__heading"> testimoniales</h2>
+        <div class="testimoniales__grid">
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__img">
+                        <img src="build/img/testimonial1.jpg" alt="imagen de testimonial">
+                    </div>
+
+                    <div class="testimonial__info">
+                        <p class="testimonial__autor">Juan perez</p>
+                        <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="calificacion">
+                    </div>
+                </header>
+
+                <blockquote class="testimonial__texto">
+                    una exelente app, puedo selecionar de una grancanidad de opciones y pagar en targeta o en efectivo segun me convenga
+                </blockquote>
+            </div>
+        <!-- AQUI FINALIZA EL TESTIMONIAL 1 -->
+        
+        <div class="testimonial">
+            <header class="testimonial__header">
+                <div class="testimonial__img">
+                    <img src="build/img/testimonial5.jpg" alt="imagen de testimonial">
+                </div>
+
+                <div class="testimonial__info">
+                    <p class="testimonial__autor">Itzel Cruz</p>
+                    <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="calificacion">
+                </div>
+            </header>
+
+            <blockquote class="testimonial__texto">
+                una exelente app, puedo selecionar de una grancanidad 
+            </blockquote>
+        </div>
+    <!-- AQUI FINALIZA EL TESTIMONIAL 2 -->
+    <div class="testimonial">
+        <header class="testimonial__header">
+            <div class="testimonial__img">
+                <img src="build/img/testimonial4.jpg" alt="imagen de testimonial">
+            </div>
+
+            <div class="testimonial__info">
+                <p class="testimonial__autor">Rocio Rodriguez</p>
+                <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="calificacion">
+            </div>
+        </header>
+
+        <blockquote class="testimonial__texto">
+            una exelente app, puedo selecionar de una grancanidad de opciones y pagar en targeta o en efectivo segun me convenga de opciones y pagar en targeta o en efectivo segun me convenga
+        </blockquote>
+    </div>
+<!-- AQUI FINALIZA EL TESTIMONIAL 3-->
+<div class="testimonial">
+    <header class="testimonial__header">
+        <div class="testimonial__img">
+            <img src="build/img/testimonial2.jpg" alt="imagen de testimonial">
+        </div>
+
+        <div class="testimonial__info">
+            <p class="testimonial__autor">Cynthia V</p>
+            <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="calificacion">
+        </div>
+    </header>
+
+    <blockquote class="testimonial__texto">
+        una exelente app, puedo selecionar de una grancanidad de opciones y pagar en targeta o en efectivo segun me convenga
+    </blockquote>
+</div>
+<!-- AQUI FINALIZA EL TESTIMONIAL 4-->
+<div class="testimonial">
+    <header class="testimonial__header">
+        <div class="testimonial__img">
+            <img src="build/img/testimonial3.jpg" alt="imagen de testimonial">
+        </div>
+
+        <div class="testimonial__info">
+            <p class="testimonial__autor">Jose Enardez</p>
+            <img class="testimonial__calificacion" src="build/img/estrellas.png" alt="calificacion">
+        </div>
+    </header>
+
+    <blockquote class="testimonial__texto">
+        una exelente app, puedo selecionar de una grancanidad de opciones y pagar en targeta o en efectivo segun me convenga
+    </blockquote>
+</div>
+<!-- AQUI FINALIZA EL TESTIMONIAL 5-->
+    </div>
+</section>
+
+<!-- aqui empieza el main que tratara de los restaurantes que tenemos como opcion -->
+
+
+<main class="favoritos">
+    <h2 class="favoritos__titulo">Restaurantes favoritos</h2>
+
+
+    <div class="favoritos__grid contenedor">
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">seeafoot</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante1 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante1.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">superfoot</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante2 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante2.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">Bodas</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante3 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante3.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">La jefecita</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante4 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante4.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">Sal & pimienta</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante5 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante6.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">Depot</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante6 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante7.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">Cafe Dali</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante7 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante8.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">La Barra</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante8 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante9.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">Pizza Hut</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante9 -->
+        <div class="favorito">
+            <div class="favorito__grid">
+                <div class="favortito__imagen">
+                    <img src="./build/img/restaurante10.png" alt="logo de restaurante">
+                </div>
+
+                <div class="favorito__contenido">
+                    <img src="./build/img/estrellas.png" alt="estrellas">
+                    <h3 class="favorito__nombre">Lorem pasta</h3>
+                    <p class="favorito__descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit at atque quia accusamus nihil sequi minima reiciendis itaque maxime laudantium, ullam, voluptate magni veritatis, fugiat neque nulla laborum repellat?</p>
+                </div>
+            </div>
+        </div>
+        <!-- este es final del restaurante10 -->
+    </div>
+</main>
+
+
+<section class="repartidores">
+    <h2 class="repartidores__titulo">Gana dinero con App Comida</h2>
+    <div class="repartidores__container">
+        <div class="repartidores__img">
+            <img src="build/img/repartidor.jpg" alt="">
+        </div>
+        <div class="respartidores__inf">
+            <p class="respartidores__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque, dolores, quo aut nulla error aperiam, ducimus blanditiis ratione esse facere nemo. Reiciendis nam quidem obcaecati labore eveniet. Amet, suscipit!</p>
+
+            <p class="respartidores__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eaque, dolores, quo aut nulla error aperiam, ducimus blanditiis ratione esse facere nemo. Reiciendis nam quidem obcaecati labore eveniet. Amet, suscipit!</p>
+
+            <a href="#" class="repartidores__button">Mas informacion</a>
+
+        </div>
+    </div>
+</section>
+
+<section class="descargas">
+    <div class="descargas__grid contenedor">
+        <div class="descargas__img">
+            <img src="build/img/app.png" alt="imagen app">
+        </div>
+
+        <div class="tiendas">
+            <h3 class="tiendas__titulo">Descarga la app</h3>
+            <p class="tiendas__texto">Disponible para Android y iOS</p>
+
+            <div class="tiendas__grid">
+                <a href="" class="tiendas__enlace">
+                    <img src="build/img/tienda-apple.svg" alt="tienda apple">
+                </a>
+                <a href="" class="tiendas__enlace">
+                    <img src="build/img/tienda-android.svg" alt="tienda android">
+                </a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__grid contenedor">
+        <div class="footer__box">
+            <h3 class="footer__titulo">Nosotros</h3>
+            <p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim expedita, facere atque quod velit cum itaque totam qui dolor hic excepturi at officia. Voluptate eos beatae, impedit quibusdam fugiat alias?</p>
+        </div>
+
+        <div class="footer__box">
+            <h3 class="footer__titulo">navegacion</h3>
+            <nav class="footer__nav"> 
+                <a href="#" class="footer__enlace">Enlace1</a>
+                <a href="#" class="footer__enlace">Enlace1</a>
+                <a href="#" class="footer__enlace">Enlace1</a>
+                <a href="#" class="footer__enlace">Enlace1</a>
+                <a href="#" class="footer__enlace">Enlace1</a>
+                <a href="#" class="footer__enlace">Enlace1</a>
+            </nav>
+        </div>
+
+        <div class="footer__box">
+            <h3 class="footer__titulo">Contacto</h3>
+            <p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim expedita, facere atque quod velit cum itaque totam qui dolor hic excepturi at officia. Voluptate eos beatae, impedit quibusdam fugiat alias?</p>
+        </div>
+    </div>
+
+    <p class="footer__copyright">
+        App Comida. Todos los derechos reservados!
+    </p>
+</footer>
+
+</body>
+</html>

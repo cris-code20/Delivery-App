@@ -1,0 +1,35 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.repartidores{
+    background-color: v.$blanco;
+    padding: 5rem;
+
+    &__titulo{
+        text-align: center;
+        color: v.$secundario;
+    }
+
+    &__container {
+        
+        @include m.tablet { 
+            @include m.grid(2,5rem)
+        }
+    }
+
+    &__inf{
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    &__texto{
+        line-height: 1.5;
+        color: v.$secundario;
+    }
+
+    &__button{
+        @include m.boton(v.$primario, v.$blanco)
+        
+    }
+}
+
